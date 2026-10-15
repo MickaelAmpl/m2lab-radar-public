@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+pillow
+imageio-ffmpeg
+pytest
+# optional: local transcription in the deep pass
+faster-whisper

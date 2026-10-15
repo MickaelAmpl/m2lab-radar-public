@@ -1,0 +1,23 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# collected data, frames, transcripts, run logs and paid API caches stay local
+data/
+dataset/
+archive/
+cache*/
+hiker-cache/
+runs/
+
+# generated pages
+*.html
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+node_modules/
